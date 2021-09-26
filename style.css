@@ -1,0 +1,77 @@
+body{
+  background-color: #252C45;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 9vh 91vh;
+}
+
+.navbar{
+display: grid;
+grid-column-start: 2;
+grid-column-end: 3;
+background-color: #022B5B;
+grid-template-columns: 5fr 1fr 1fr;
+}
+
+#navbtns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+}
+
+.asidemenu{
+    position: relative;
+    display: grid;
+    background-color: #00022c;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-content: center;
+    grid-template-rows: 15vh 75vh 10vh;
+}
+
+.asidemenu svg{
+    width: 10rem;
+    padding-top: 1rem;
+    justify-self: center;
+}
+
+#links{
+    grid-row-start: 2;
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh;
+}
+
+#links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 1.15rem;
+    font-weight: lighter;
+}
+
+#logout{
+    display: grid;
+    grid-row-start: 3;
+    color: white;
+    grid-row: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoutbtn{
+    grid-row-start: 1;
+    width: 1.5rem;
+}
+
+#logouttxt{
+ grid-row-start: 1;
+}
