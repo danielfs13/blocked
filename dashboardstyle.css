@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+body{
+  background-color: #252C45;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 9vh 91vh;
+}
+
+.navbar{
+display: grid;
+grid-column-start: 2;
+grid-column-end: 3;
+background-color: #022B5B;
+grid-template-columns: 3fr 1fr 1fr;
+}
+
+#searchbar{
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end:1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2rem;
+    align-content: center;
+    align-items: center;
+}
+
+#searchbar button{
+    display: grid;
+    justify-content: center;
+    width: 2.1rem;
+    background-color: #0077ff;
+    box-shadow: none;
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 1.743rem;
+    
+}
+
+#searchbar input{
+    border-radius: 5px 0px 0px 5px;
+    height: 1.6rem;
+    border-style: none;
+    border-width: 0.1rem 0 0.1rem 0.1rem;
+    margin-left: 4rem;
+}
+
+#searchbar input:active{
+    border-style: none;
+}
+
+
+#navbtns{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.asidemenu{
+    position: relative;
+    display: grid;
+    background-color: #00022c;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    justify-content: center;
+    grid-template-rows: 15vh 75vh 10vh;
+}
+
+.asidemenu svg{
+    width: 10rem;
+    padding-top: 1rem;
+    justify-self: center;
+}
+
+#links{
+    grid-row-start: 2;
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh;
+}
+
+#links a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 1.15rem;
+    font-weight: lighter;
+}
+
+#logout{
+    display: grid;
+    grid-row-start: 3;
+    color: white;
+    grid-row: 2vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#logoutbtn{
+    grid-row-start: 1;
+    width: 1.5rem;
+}
+
+#logouttxt{
+ grid-row-start: 1;
+}
+
+#conteudo{
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-template-columns: 2fr 1fr;
+}
+
+#novidades{
+    display: grid;
+    grid-template-rows: 5rem 20rem 5rem 20rem;
+}
+
+
+#novidade1{
+    grid-row-start: 2;
+    background-color: #222324;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    width: 40rem;
+    height: 20rem;
+    justify-self: center;
+}
+
+#novidade2{
+    grid-row-start: 4;
+    background-color: #222324;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(80, 80, 80);
+    width: 40rem;
+    height: 20rem;
+    justify-self: center;
+}
+
+#trending{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-rows: 5rem 5rem 5rem 5rem;
+}
+
+#trendingtxt{
+    grid-row-start: 2;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    color: white;
+    border-bottom: 1px solid;
+    border-color: rgb(107, 107, 107);
+    width: 15rem;
+    align-self: center;
+    letter-spacing: 0.2em;
+    
+}
