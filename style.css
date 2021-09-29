@@ -9,7 +9,7 @@ body{
 
 #container{
     display: grid;
-    grid-template-rows: 5rem 30rem 20rem 30rem;
+    grid-template-rows: 5rem 60rem 25rem 45rem 35rem;
 }
 
 #header{
@@ -82,13 +82,14 @@ body{
 }
 
 #b1title{
-    font-size: 4rem;
+    font-size: 5rem;
     padding-top: 4rem;
 }
 
 #b1span{
     display: grid;
-    margin-top: -10rem;
+    font-size: 2rem;
+    margin-top: -5rem;
 }
 
 #banner1bts{
@@ -117,5 +118,110 @@ body{
     height: 1rem;
     width: 6rem;
     padding: 1rem;
+}
+
+#banner2{
+    display: grid;
+    background-color: #59678A;
+    grid-row-start: 3;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+#banner2 h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+}
+
+#banner2 svg{
+    margin-top: -10rem;
+}
+
+#banner3{
+    display: grid;
+    grid-row-start: 4;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#banner3txt{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5rem;
+}
+
+#banner3txt h1{
+    font-size: 5rem;
+}
+
+#banner3txt span{
+    display: grid;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+#footer{
+    display: grid;
+    background-color: black;
+    grid-row-start: 5;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 7rem;
+}
+
+#footer h3{
+    margin-top: 4rem;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+#finfo{
+    display: grid;
+    grid-column-start: 1;
+    grid-template-columns: 1fr 1fr;
+}
+
+#links{
+    display: grid;
+    grid-column-start: 1;
+}
+
+#aboutus{
+    display: grid;
+    grid-column-start: 2;
+}
+
+#news{
+    display: grid;
+    grid-column-start: 2;
+    grid-template-columns: 1fr 1fr;
+}
+
+#lnews{
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+#pnews{
+    display: grid;
+    margin-left: -3.5rem;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+#newsimg{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#newsimg img{
+    width: 45rem;
 }
 
