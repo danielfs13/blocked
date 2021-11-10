@@ -122,6 +122,7 @@ body{
 
 #banner2{
     display: grid;
+    grid-template-rows: 1fr 5fr;
     background-color: #59678A;
     grid-row-start: 3;
     align-items: center;
@@ -134,10 +135,18 @@ body{
     font-weight: 400;
     font-size: 2rem;
     color: white;
+    padding-top: 1em;
 }
 
-#banner2 svg{
-    margin-top: -10rem;
+#featLogos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#featLogos img{
+    padding: 5em;
+    width: 150%;
 }
 
 #banner3{
@@ -245,7 +254,7 @@ body{
 
 #eyeGlobes{
     transform: translateX(0px);
-    animation: moveyes 6s ease-in-out infinite;
+    animation: moveyes 6s ease infinite;
 }
 
 @keyframes moveyes{
