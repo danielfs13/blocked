@@ -16,9 +16,9 @@ function eyeball(){
 let hackerSpan = document.querySelector('#hackerTxt');
 
 var typed = new Typed(hackerSpan, {
-    strings: ['This is going to be a blocking revolution, This is going to be a blocking revolution', 'Join Us'],
+    strings: ['This is going to be a blocking revolution', 'Join Us'],
     typeSpeed: 50,
-    backSpeed: 50,
+    backSpeed: 10,
     showCursor: false,
     loop: true
 })

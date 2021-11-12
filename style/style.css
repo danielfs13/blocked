@@ -79,6 +79,16 @@ body{
     font-family: 'Roboto', sans-serif;
     align-items: center;
     justify-content: left;
+    animation: h1animation 1.5s ease-in;
+}
+
+@keyframes h1animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 100;
+    }
 }
 
 #b1title{
@@ -97,6 +107,22 @@ body{
     grid-template-columns:1fr 1fr;
     font-family: 'Roboto', sans-serif;
     justify-self: left;
+    transform: translateY(0px);
+    animation: buttons 1.5s ease-in;
+    opacity: 0;
+    animation-delay: 1s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes buttons{
+    0%{
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100;
+    }
 }
 
 #startbtn{
