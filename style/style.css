@@ -154,7 +154,9 @@ body{
     align-items: center;
     justify-content: center;
     justify-items: center;
+
 }
+
 
 #banner2 h1{
     font-family: 'Roboto', sans-serif;
@@ -168,6 +170,17 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
+}
+
+.fLogos{
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
 }
 
 #featLogos img{

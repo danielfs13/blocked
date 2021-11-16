@@ -22,3 +22,16 @@ var typed = new Typed(hackerSpan, {
     showCursor: false,
     loop: true
 })
+
+window.addEventListener('scroll', ()=>  {
+    let content = document.querySelector('#featLogos');
+    let contentPosition = content.getBoundingClientRect().top;
+    let screenPosition = window.innerHeight;
+
+    if(contentPosition < screenPosition){
+        content.classList.add('active');
+    }
+    else{
+        content.classList.remove('active');
+    }
+});
