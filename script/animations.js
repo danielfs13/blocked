@@ -23,6 +23,7 @@ var typed = new Typed(hackerSpan, {
     loop: true
 })
 
+
 window.addEventListener('scroll', ()=>  {
     let content = document.querySelector('#featLogos');
     let contentPosition = content.getBoundingClientRect().top;
@@ -35,3 +36,5 @@ window.addEventListener('scroll', ()=>  {
         content.classList.remove('active');
     }
 });
+
+

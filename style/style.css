@@ -270,7 +270,7 @@ body{
 }
 
 #newsimg img{
-    width: 45rem;
+    width: 45em;
 }
 
 
@@ -312,4 +312,17 @@ body{
     100%{
         transform: translateX(0px);
     }
+}
+
+@media screen and (max-width: 1570px){
+    html{
+        width: 90%;
+    }
+    #newsimg img{
+        width: 30em;
+    }
+    #featLogos img{
+        width: 10em;
+    }
+
 }
