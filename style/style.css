@@ -497,17 +497,28 @@ body{
         font-size: 1em;
     }
     #banner3 img{
-        min-width: 50vw;
+        min-width: 40vw;
+        max-width: 75vw;
     }
     #banner3txt h1{
         font-size: 2em;
+    }
+    #banner3txt span{
+        font-size: 1em;
     }
     
 }
 
 @media (max-width:545px){
-    #banner1img svg{
-        right: 130px;
-        bottom: 90px;
+
+    #banner1, #banner3{
+        width: 90vw;
+    }
+    #banner1{
+    grid-template-columns: 2fr 1fr;
+    }
+    #banner1img{
+    position: absolute;
+    left: 60vw;
     }
 }
